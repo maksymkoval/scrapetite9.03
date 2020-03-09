@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Quicktype;
+    src: url("QuickType.ttf"); }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+      
+  body{
+    font-family: Quicktype;
+    max-height: 2033px;
+    max-width: 1920px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin:0;
+  }
+  .container1{
+    padding-top: 195px;
+   max-width: 1920px;
+   height: 1080px;
+  }
+  .container1 .signinform{
+width: 530.5px;
+height: 486.49px;
+margin:auto;
+border:1px solid #FC5400;
+border-radius: 0% 0% 2% 2%;
+margin-bottom: 120px;
+  }
+  .container1 .signinform form .toplogo{
+    height: 91px;
+    width: 100%;
+    background-color:#FC5300 ;
+  }
+  .person{
+    position: absolute;
+    right:35px;
+    top: 20px;
+  }
+  .lock{
+    right:35px;
+    position: absolute;
+    top: 118px;
+  }
+  .line2{
+    position: absolute;
+    top: 60px;
+    right: 35px;
+  }
+  .line1{
+    position: absolute;
+    top: 145px;
+    right: 35px;
+  }
+  #email{
+padding: 50px 20px 20px 10px;
+margin: 40px auto 0;
+width: 480px;
+height:70px;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius: 3%;
+border: 1px solid #828380;
+font-family: Quicktype;
+font-size: 19px;
+color: #363637;
+  }
+  .inpts{
+    position: relative;
+    
+  }
+  #password{
+    padding: 45px 20px 20px 10px;
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 480px;
+    border: 1px solid #828380;
+    margin: 15px auto 0;
+    border-radius: 3%;
+    font-family: Quicktype;
+    font-size: 19px;
+    color: #363637;
+  }
+  .toplogo span{
+    color: white;
+    font-family: Quicktype;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 25px;
+  }
+
+  .wholescrap{
+    border-bottom: 1px solid rgb(196, 191, 191);
+    padding:45px 0 5px 20px;
+    height: 85px;
+  }
+  #subm{
+    background-color: #363637;
+    padding-top: 0px;
+    color: white;
+    height:70px;
+    display:flex;
+    justify-content:center;
+    font-family: Quicktype;
+    font-size: 19px;
+    align-items:center;
+    width: 480px;
+    margin:  auto ;
+  }
+  .registernew{
+    margin-bottom: 0px;
+  }
+  .register-reset{
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 25px 0 25px;
+    font-family: Quicktype;
+    font-size: 19px;
+    color: #363637;
+  }
+  .register-reset a{
+    text-decoration: none;
+    color: #363637;
+  }
+  .contactinfo{
+    width: 986px;
+    height: 172px;
+    font-family: Quicktype;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .container2{
+    max-width: 1920px;
+    max-height:  2033px;
+    margin-top: 190px;
+  }
+  .create{
+    margin: auto;
+    width: 996px;
+    height: 735px;
+    padding: 20px 25px 45px 30px;
+    border: 2px solid #c4c4c4;
+  }
+  .create h4{
+    color:#707070;
+    font-family: Quicktype;
+    font-size: 30px;
+  }
+.topl{
+  display: flex;
+  justify-content: space-between;
+}
+.container2 input{
+  width: 360px;
+  height: 50px;
+  border: 1px solid #ADADAD;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  color: black;
+}
+.code{
+width: 163px!important;
+margin-right: 0!important;
+}
+.create h4{
+  font-family: Quicktype;
+    font-size: 30px;
+    line-height: 1;
+    color: #ADADAD;
+    margin: 0;
+}
+.scrimg{
+  margin-right: 350px;
+}
