@@ -1,6 +1,9 @@
 @font-face {
     font-family: Quicktype;
     src: url("QuickType.ttf"); }
+    @font-face {
+      font-family: QuickCondenced;
+      src: url("QuickTypeCondensedBold.ttf"); }
     * {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -66,7 +69,7 @@ border-radius: 3%;
 border: 1px solid #828380;
 font-family: Quicktype;
 font-size: 19px;
-color: #363637;
+color: #363637!important;
   }
   .inpts{
     position: relative;
@@ -146,11 +149,6 @@ color: #363637;
     padding: 20px 25px 45px 30px;
     border: 2px solid #c4c4c4;
   }
-  .create h4{
-    color:#707070;
-    font-family: Quicktype;
-    font-size: 30px;
-  }
 .topl{
   display: flex;
   justify-content: space-between;
@@ -170,12 +168,12 @@ width: 163px!important;
 margin-right: 0!important;
 }
 .create h4{
-  font-family: Quicktype;
+  font-family: QuickCondenced;
     font-size: 30px;
-    line-height: 1;
-    color: #ADADAD;
+    line-height: 2;
+    color: #707070;
     margin: 0;
 }
 .scrimg{
-  margin-right: 350px;
+  margin-right: 250px;
 }
