@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container1">
+    <div id="cont1" class="container1">
         <div class="signinform">
             <form action="#">
                 <div class="toplogo">
@@ -17,7 +17,7 @@
                 </div>
             </div>
                 <div class="inpts">
-                <input type="email" id="email" placeholder="Username or Email">
+                <input type="email" id="email" placeholder="Username or E-mail">
                 <img class="person" src="person.jpg" alt="">
                 <img src="border.svg" class="line1" alt="">
                 <input type="password" id="password" placeholder="Password">
@@ -26,7 +26,7 @@
             </div>
             <div class="register-reset">
             <p class="forgotpass">Forgot Password?</p>
-            <a href="register.html"> <p class="registernew">Register New Account</p></a>
+            <p class="registernew" id="registr">Register New Account</p>
         </div>
             <input type="submit" id="subm" value="LOGIN">
             </form>
@@ -35,5 +35,36 @@
 
             If you don't have a login, please contact us directly at +1 386 673 6771 and speak with our administration team or email admin@scraperite.com</div>
     </div>
+    <div  class="container2" id="cont2">
+        <form action="#">
+        <div class="create"><div class="topl">
+           
+            <h4>CREATE NEW ACCOUNT</h4> <img src="scr.jpg" class="scrimg" width="116px" height="56px" alt=""><img id="cancel" class="cancel" src="cancel.jpg" width="26px" height="26px" alt=""></div>
+           
+            <input type="text" placeholder="Company" class="company">
+            <div class="inpsname">
+                <input type="text" placeholder="First Name" class="fname">
+                <input type="text" placeholder="Last Name" class="lname">
+            </div>
+            <input type="text" placeholder="Adress 1" class="address1"><br>
+            <input type="text" placeholder="Adress 2" class="address2">
+            <div class="inpslocation">
+                <input type="text" placeholder="City" class="city">
+                <input type="text" placeholder="State/Region" class="state">
+                <input type="text" placeholder="Postal Code" class="code">
+            </div>
+            <input type="text" placeholder="Country" class="country"><br>
+            <input type="text" placeholder="Telephone" class="phone"><br>
+            <input type="text" placeholder="me@email.com" class="mail">
+            <div class="inpspass">
+                <input type="text" placeholder="Password" class="password">
+                <input type="text" placeholder="Confirm Password" class="confirm">
+            </div>
+            <button class="buttonsubm">Submit</button>
+            </div>
+        </div>
+    </form>
+    </div> 
+    <script src="script.js"></script>
 </body>
 </html>

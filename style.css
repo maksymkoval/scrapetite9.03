@@ -1,9 +1,15 @@
 @font-face {
-    font-family: Quicktype;
-    src: url("QuickType.ttf"); }
+    font-family: QuicktypeCondenced;
+    src: url("QuickTypeCondensedRegular.ttf"); }
     @font-face {
-      font-family: QuickCondenced;
+      font-family: QuickCondencedBold;
       src: url("QuickTypeCondensedBold.ttf"); }
+      @font-face {
+        font-family: ArialRegular;
+        src: url("Arial.ttf"); }  
+        @font-face {
+          font-family: QuickType;
+          src: url("QuickType.ttf"); }  
     * {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -23,6 +29,7 @@
     padding-top: 195px;
    max-width: 1920px;
    height: 1080px;
+   display: block;
   }
   .container1 .signinform{
 width: 530.5px;
@@ -40,21 +47,21 @@ margin-bottom: 120px;
   .person{
     position: absolute;
     right:35px;
-    top: 20px;
+    top: 23px;
   }
   .lock{
     right:35px;
     position: absolute;
-    top: 118px;
+    top: 122px;
   }
   .line2{
     position: absolute;
-    top: 60px;
+    top: 62px;
     right: 35px;
   }
   .line1{
     position: absolute;
-    top: 145px;
+    top: 148px;
     right: 35px;
   }
   #email{
@@ -65,36 +72,54 @@ height:70px;
 display:flex;
 justify-content:center;
 align-items:center;
-border-radius: 3%;
-border: 1px solid #828380;
-font-family: Quicktype;
-font-size: 19px;
+border-radius: 5px;
+border: 1px solid #C1C0C0;
+font-family: QuickCondencedBold;
+    font-size: 19px;
 color: #363637!important;
   }
   .inpts{
     position: relative;
     
   }
+  .inpspass{
+    padding-bottom: 30px;
+  }
+  .buttonsubm{
+    width: 143px;
+    height: 40px;
+    font-family: QuickCondencedBold;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:#FF5300 ;
+    border: none;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin: auto;
+    display:flex;justify-content:center;align-items:center;
+  }
   #password{
-    padding: 45px 20px 20px 10px;
+    padding: 45px 20px 10px 10px;
     height:70px;
     display:flex;
     justify-content:center;
     align-items:center;
     width: 480px;
-    border: 1px solid #828380;
+    border: 1px solid #C1C0C0;
     margin: 15px auto 0;
     border-radius: 3%;
-    font-family: Quicktype;
+    font-family: QuickCondencedBold;
     font-size: 19px;
-    color: #363637;
+        color: #363637;
   }
-  .toplogo span{
+  .toplogo .wholescrap span{
     color: white;
-    font-family: Quicktype;
-    font-weight: bold;
-    font-size: 22px;
-    padding-left: 25px;
+    font-family: QuickCondencedBold;
+    /* font-weight: bold; */
+    font-size: 23px;
+    padding-left: 30px;
   }
 
   .wholescrap{
@@ -109,7 +134,7 @@ color: #363637!important;
     height:70px;
     display:flex;
     justify-content:center;
-    font-family: Quicktype;
+    font-family: QuickCondencedBold;
     font-size: 19px;
     align-items:center;
     width: 480px;
@@ -117,12 +142,13 @@ color: #363637!important;
   }
   .registernew{
     margin-bottom: 0px;
+    cursor: pointer;
   }
   .register-reset{
     display: flex;
     justify-content: space-between;
     margin: 55px 25px 0 25px;
-    font-family: Quicktype;
+    font-family: QuickCondencedBold;
     font-size: 19px;
     color: #363637;
   }
@@ -133,7 +159,7 @@ color: #363637!important;
   .contactinfo{
     width: 986px;
     height: 172px;
-    font-family: Quicktype;
+    font-family: QuickCondencedBold;
     font-size: 20px;
     line-height: 1.5;
   }
@@ -141,13 +167,16 @@ color: #363637!important;
     max-width: 1920px;
     max-height:  2033px;
     margin-top: 190px;
+    display: none;
+    padding-bottom: 60px;
   }
   .create{
     margin: auto;
     width: 996px;
-    height: 735px;
+    height: 830px;
     padding: 20px 25px 45px 30px;
     border: 2px solid #c4c4c4;
+   
   }
 .topl{
   display: flex;
@@ -162,18 +191,27 @@ color: #363637!important;
   margin-right: 20px;
   padding: 20px;
   color: black;
+  font-family: ArialRegular;
+  font-size: 14px;
 }
 .code{
 width: 163px!important;
 margin-right: 0!important;
 }
 .create h4{
-  font-family: QuickCondenced;
-    font-size: 30px;
-    line-height: 2;
-    color: #707070;
     margin: 0;
 }
 .scrimg{
   margin-right: 250px;
+}
+#cancel{
+  cursor: pointer;
+}
+.topl h4{
+  font-family: QuickType;
+  font-size: 27px;
+  line-height: 2;
+  font-stretch:condensed;
+  font-weight: bold;
+  color: #707070;
 }
