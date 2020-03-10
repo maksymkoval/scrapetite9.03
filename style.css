@@ -5,7 +5,7 @@
       font-family: QuickCondencedBold;
       src: url("QuickTypeCondensedBold.ttf"); }
       @font-face {
-        font-family: ArialRegular;
+        font-family: ArialRegular; 
         src: url("Arial.ttf"); }  
         @font-face {
           font-family: QuickType;
@@ -117,9 +117,8 @@ color: #363637!important;
   .toplogo .wholescrap span{
     color: white;
     font-family: QuickCondencedBold;
-    /* font-weight: bold; */
-    font-size: 23px;
-    padding-left: 30px;
+    font-size: 25px;
+    padding-left: 40px;
   }
 
   .wholescrap{
