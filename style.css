@@ -137,7 +137,8 @@ color: #363637!important;
     font-size: 19px;
     align-items:center;
     width: 480px;
-    margin:  auto ;
+    margin:  auto auto 50px auto ;
+    border: none;
   }
   .registernew{
     margin-bottom: 0px;
